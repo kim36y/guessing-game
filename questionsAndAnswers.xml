@@ -1,0 +1,113 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<question text = "Is it an outdoor job?">
+	
+	<answer user_answer = "yes">
+		<question text = "Is there a specific vehicle related to this job?">		
+			<answer user_answer = "yes">							
+				<question text = "Is the purpose of the vehicle to take other people to their destinations?">									
+					<answer user_answer = "yes">					
+						<question text = "Does the vehicle stay on land?">						
+							<answer user_answer = "yes">
+								<thing value = "bus driver"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "pilot"/>
+							</answer>														
+						</question>											
+					</answer>											
+					<answer user_answer = "no">												
+						<question text = "Is this job related to saving lives?">														
+							<answer user_answer = "yes">
+								<thing value = "fireman"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "car racer"/>
+							</answer>														
+						</question>											
+					</answer>									
+				</question>							
+			</answer>				
+							
+			<answer user_answer = "no">								
+				<question text = "Is it a sport-related job?">										
+					<answer user_answer = "yes">
+						<question text = "Does this sport include balls?">
+							<answer user_answer = "yes">
+								<thing value = "soccer player"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "rock climber"/>
+							</answer>
+						</question>
+					</answer>					
+					<answer user_answer = "no">
+						<question text = "Is using tools necessary for this job?">
+							<answer user_answer = "yes">
+								<thing value = "construction worker"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "tour guide"/>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+	
+	<answer user_answer = "no">
+		<question text = "Does the job require creating something of their own?">
+			<answer user_answer = "yes">				
+				<question text = "Is the job mostly done on a computer?">					
+					<answer user_answer = "yes">
+						<question text = "Is the job related to creating new stories?">
+							<answer user_answer = "yes">
+								<thing value = "author"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "web designer"/>
+							</answer>							
+						</question>					
+					</answer>						
+					<answer user_answer = "no">						
+						<question text = "Is this job require a lot of moving?">							
+							<answer user_answer = "yes">
+								<thing value = "choreographer"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "painter" />
+							</answer>							
+						</question>					
+					</answer>				
+				</question>			
+			</answer>	
+								
+			<answer user_answer = "no">				
+				<question text = "Is this job needed at a restaurant?">					
+					<answer user_answer = "yes">
+						<question text = "Does it require leadership skills?">
+							<answer user_answer = "yes">
+								<thing value = "manager"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "waiter"/>
+							</answer>
+						</question>
+					</answer>					
+					<answer user_answer = "no">
+						<question text = "Does it have to do with law?">
+							<answer user_answer = "yes">
+								<thing value = "lawyer"/>
+							</answer>
+							<answer user_answer = "no">
+								<thing value = "doctor"/>
+							</answer>
+						</question>
+					</answer>
+				</question>
+			</answer>
+		</question>
+	</answer>
+
+</question>
